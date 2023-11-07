@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- link style  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Submission Dicoding</title>
+</head>
+
+<body>
+  <!-- header website beserta navbar -->
+  <header>
+    <!-- navbar  -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#front-end">Cloud Computing</a></li>
+        <li><a href="#back-end">Web Development</a></li>
+        <li><a href="#fullstack">Cyber Security</a></li>
+      </ul>
+    </nav>
+    <!-- header  -->
+    <div class="slider">
+      <div class="slide">
+        <img src="images/fullstack.jpg" alt="Slide 1" />
+      </div>
+      <div class="slide">
+        <img src="images/php.jpg" alt="Slide 2" />
+      </div>
+      <div class="slide">
+        <img src="images/python.jpg" alt="Slide 3" />
+      </div>
+      <a class="prev" onclick="prevSlide()">&#10094;</a>
+      <a class="next" onclick="nextSlide()">&#10095;</a>
+    </div>
+  </header>
+
+  <!-- isi content  -->
+  <main>
+    <div id="content">
+      <article class="card" id="artikel">
+        <h2>Choose :</h2>
+        <div class="menu-item">
+          <img src="images/cloud pp.jpg" alt="front-end" />
+          <h3><a href="#front-end">Cloud Computing</a></h3>
+        </div>
+        <div class="menu-item">
+          <img src="images/1.png" alt="back-end" />
+          <h3><a href="#back-end">Web Development</a></h3>
+        </div>
+        <div class="menu-item">
+          <img src="images/ppp.jpg" alt="js" />
+          <h3><a href="#fullstack">Cyber Security</a></h3>
+        </div>
+      </article>
+
+      <article class="card" id="front-end">
+        <h2>Cloud Computing</h2>
+        <p>
+          Seorang profesional di bidang cloud computing bertanggung jawab atas infrastruktur komputasi awan. Mereka
+          merancang, mengelola, dan mengoptimalkan lingkungan komputasi awan untuk memastikan efisiensi dan keamanan.
+          Tugas mereka termasuk desain dan implementasi solusi awan, manajemen infrastruktur, keamanan data,
+          optimalisasi kinerja, dan pengelolaan biaya. Integrasi aplikasi dan rencana pemulihan bencana juga merupakan
+          tanggung jawab mereka. Kolaborasi dengan tim IT dan pemangku kepentingan lainnya penting untuk memahami
+          kebutuhan bisnis. Selain itu, pembaruan pengetahuan tentang perkembangan teknologi cloud adalah hal yang
+          sangat penting. Dengan keterampilan yang tepat, mereka membantu perusahaan memanfaatkan cloud untuk
+          meningkatkan efisiensi dan daya saing mereka.
+        </p>
+        <section>
+          <h3>GCP (Google Cloud Platform)</h3>
+          <img src="images/cloud.jpg" alt="HTML" class="content-image" />
+          <p>
+            Google Cloud Platform (GCP) adalah sebuah platform cloud computing yang menyediakan infrastruktur, layanan,
+            dan alat-alat untuk mendukung pengembangan, penyimpanan data, dan pengelolaan aplikasi di cloud. GCP
+            memiliki konsep dan komponen-komponen mirip dengan HTML dalam hal pengorganisasian dan pengelolaan sumber
+            daya cloud. Beberapa konsep kunci di GCP mencakup:
+          </p>
+          <ul>
+            <li>1. Project: Konsep proyek di GCP setara dengan halaman web dalam HTML. Sebuah proyek adalah wadah untuk
+              mengatur, mengelola, dan menyatukan semua sumber daya cloud yang terkait dengan suatu aplikasi atau
+              bisnis.</li>
+            <li>2. Resource Hierarchy: GCP mengorganisasi sumber daya dalam hierarki yang terstruktur, mirip dengan tag
+              HTML. Ini termasuk penggunaan proyek, folder, dan organisasi untuk mengatur dan mengelola sumber daya.
+            </li>
+            <li>3. Compute Engine: Layanan ini mirip dengan tag HTML
+
+              <body> karena ini adalah tempat Anda menjalankan dan mengelola aplikasi Anda di cloud. Anda dapat
+                menggunakan mesin virtual dan kontainer untuk menjalankan aplikasi Anda di Compute Engine.
+            </li>
+            <li>4. Cloud Storage: Mirip dengan tag HTML <img>, Cloud Storage memungkinkan Anda menyimpan dan mengakses
+              berkas seperti gambar, video, dan data lainnya di cloud. </li>
+            <li>5. BigQuery: Layanan ini serupa dengan tag HTML <table> dan <tr>, karena ini memungkinkan Anda untuk
+                  mengelola dan menganalisis data dalam format tabel.
+            </li>
+            <li>6. Networking: Konsep jaringan di GCP memungkinkan Anda mengatur dan mengelola lalu lintas data antara
+              berbagai sumber daya, mirip dengan cara tag HTML <a> membuat tautan </li>
+            <li>7. Identity and Access Management (IAM): Ini setara dengan bagaimana HTML dapat mengatur hak akses ke
+              halaman web. Dengan IAM di GCP, Anda dapat mengatur siapa yang memiliki izin untuk mengakses sumber daya
+              cloud Anda.
+            </li>
+            <li>8. Billing and Cost Management: Seperti HTML yang terkait dengan biaya hosting dan pengeluaran lainnya,
+              GCP menyediakan alat untuk memantau dan mengelola biaya yang terkait dengan penggunaan sumber daya cloud.
+            </li>
+          </ul>
+          <p>
+            GCP juga memungkinkan Anda untuk menulis konfigurasi dan mengelola sumber daya melalui berbagai antarmuka,
+            termasuk antarmuka baris perintah dan konsol web. Setelah sumber daya cloud Anda diatur dan dikonfigurasi,
+            aplikasi dan data Anda dapat diakses melalui internet menggunakan berbagai perangkat dan platform.
+          </p>
+        </section>
+
+      </article>
+
+      <article class="card" id="back-end">
+        <h2>Web Developement</h2>
+        <p>
+          Seorang web developer adalah seorang profesional yang bertanggung jawab untuk mengembangkan sisi server atau
+          bagian belakang dari sebuah website atau aplikasi web. Mereka berfokus pada pengembangan fitur dan fungsi yang
+          tidak dapat dilihat oleh pengguna akhir, seperti manajemen database, integrasi dengan sistem lain, dan
+          pemrosesan data.<br />
+
+          Seorang web developer biasanya menggunakan bahasa pemrograman seperti PHP, Java, Ruby, dan Python untuk
+          mengembangkan aplikasi web dan fitur yang berkaitan dengan sisi server. Mereka juga menggunakan framework dan
+          teknologi yang sesuai untuk mempercepat pengembangan dan meningkatkan fungsionalitas aplikasi web. <br />
+          Tugas utama seorang web developer meliputi: <br />
+        </p>
+        <ul>
+          <li>1. Pengembangan Aplikasi Web: Mereka merancang dan mengembangkan aplikasi web dari awal, termasuk
+            perencanaan antarmuka pengguna, pengkodean, dan pengujian.</li>
+          <li>2. Manajemen Database: Memastikan data tersimpan dan diakses dengan efisien melalui manajemen database.
+          </li>
+          <li>3. Integrasi dengan Sistem Lain: Mengintegrasikan aplikasi web dengan sistem dan layanan eksternal,
+            seperti API, untuk memperluas fungsionalitas.</li>
+          <li>4. Keamanan: Menjaga keamanan data pengguna dan aplikasi dari ancaman keamanan, seperti peretasan atau
+            serangan DDoS. </li>
+
+        </ul>
+        <p>
+          Web developer juga harus berkolaborasi dengan tim pengembangan lainnya, termasuk desainer UI/UX, QA (Quality
+          Assurance), dan pengembang front-end, untuk memastikan bahwa aplikasi web yang mereka kembangkan sesuai dengan
+          tujuan dan persyaratan bisnis serta mengikuti standar pengembangan yang baik.
+        </p>
+
+        <section>
+          <h3>CSS (Cascading Style Sheets)</h3>
+          <img src="images/css1.png" alt="CSS" class="content-image" />
+          <p>
+            CSS (Cascading Style Sheets) adalah bahasa stylesheet yang digunakan untuk mengontrol tampilan dan tata
+            letak dari dokumen HTML dan XML. Dengan CSS, Anda dapat mengubah warna teks, font, margin, padding, posisi,
+            dan banyak
+            lagi dalam dokumen HTML dan XML. CSS menggunakan aturan-aturan untuk menghubungkan elemen HTML atau XML
+            dengan gaya tertentu. Aturan CSS terdiri dari selektor dan deklarasi. Selektor adalah bagian dari aturan CSS
+            yang
+            menentukan elemen HTML atau XML mana yang akan diberikan gaya. Deklarasi terdiri dari sifat dan nilai. Sifat
+            adalah aspek yang akan diubah dalam elemen HTML atau XML, seperti warna teks atau margin, sedangkan nilai
+            adalah
+            nilai yang diberikan pada sifat tersebut.
+          </p>
+        </section>
+        <section>
+          <h3>JavaScript</h3>
+          <img src="images/js1.png" alt="JS" class="content-image" />
+          <p>
+            JavaScript adalah bahasa pemrograman tingkat tinggi yang digunakan untuk mengembangkan aplikasi web
+            interaktif. JavaScript dapat digunakan untuk menambahkan interaksi dan fungsi ke halaman web seperti
+            validasi form, animasi,
+            efek transisi, dan manipulasi DOM. JavaScript dapat dijalankan pada browser web atau pada server menggunakan
+            platform seperti Node.js. Saat dijalankan di browser, JavaScript dapat diintegrasikan dengan HTML dan CSS
+            untuk
+            membuat tampilan dan interaksi yang dinamis pada halaman web.
+          </p>
+        </section>
+
+        <section>
+          <h3>PHP</h3>
+          <img src="images/php1.jpg" alt="php" class="content-image" />
+          <p>
+            PHP adalah singkatan dari "Hypertext Preprocessor", yang merupakan bahasa pemrograman yang biasanya
+            digunakan untuk membuat situs web dinamis. PHP sering digunakan bersama dengan MySQL atau database lain
+            untuk membuat aplikasi
+            web yang kompleks. <br />
+
+            PHP adalah bahasa pemrograman server-side, yang berarti bahwa kode PHP dijalankan pada server web dan
+            hasilnya kemudian dikirimkan ke browser pengguna sebagai halaman web. PHP adalah bahasa yang mudah
+            dipelajari dan digunakan
+            karena sintaksnya mirip dengan bahasa pemrograman lain seperti C dan Perl. <br />
+
+            Beberapa fitur PHP meliputi:
+          </p>
+          <ol>
+            <li>Kemampuan untuk memproses data formulir yang dikirimkan oleh pengguna.</li>
+            <li>Kemampuan untuk mengakses file dan database pada server web.</li>
+            <li>Kemampuan untuk menghasilkan halaman web dinamis, yang memungkinkan konten berubah-ubah tergantung pada
+              tindakan pengguna atau variabel yang didefinisikan oleh program.</li>
+            <li>Kemampuan untuk menghasilkan output dalam berbagai format, termasuk HTML, XML, dan JSON.</li>
+            <li>Kemampuan untuk mengintegrasikan kode PHP dengan kode JavaScript dan HTML.</li>
+            <li>Kemampuan untuk memanggil fungsi dan kelas yang sudah ditentukan di PHP atau di library eksternal.</li>
+          </ol>
+
+          <p>
+            PHP adalah salah satu bahasa pemrograman yang paling banyak digunakan di dunia untuk membuat situs web
+            dinamis. PHP dapat dijalankan di berbagai sistem operasi dan platform, dan memiliki komunitas pengguna yang
+            besar dan aktif
+            yang dapat membantu dalam pengembangan aplikasi web.
+          </p>
+        </section>
+
+        <section>
+          <h3>Java</h3>
+          <img src="images/javaaa.jpg" alt="java" class="content-image" />
+          <p>
+            Java adalah bahasa pemrograman yang diciptakan oleh James Gosling pada tahun 1995, yang dirilis oleh Sun
+            Microsystems dan sekarang dimiliki oleh Oracle Corporation. Java adalah bahasa pemrograman yang berorientasi
+            objek, yang
+            berarti bahwa semua kode Java dikemas dalam objek yang terdiri dari data dan perilaku yang terkait. Java
+            dirancang agar mudah dipelajari dan digunakan. Kode Java ditulis dalam file teks dan dikompilasi menjadi
+            bytecode yang
+            dapat dijalankan pada platform manapun yang memiliki mesin virtual Java (Java Virtual Machine/JVM). JVM
+            memungkinkan kode Java dijalankan secara independen dari sistem operasi dan perangkat keras yang digunakan.
+            Beberapa fitur
+            Java meliputi:
+          </p>
+          <ol>
+            <li>Portabilitas: Kode Java dapat dijalankan pada berbagai platform dan sistem operasi karena program Java
+              dikompilasi menjadi bytecode yang dapat dijalankan pada mesin virtual Java (JVM).</li>
+            <li>Keamanan: Java memiliki model keamanan yang ketat untuk melindungi sistem dari serangan dan ancaman.
+            </li>
+            <li>Kelas dan objek: Java adalah bahasa pemrograman berorientasi objek yang memungkinkan pengembang untuk
+              membagi kode ke dalam kelas dan objek untuk membuat kode lebih modular dan mudah dipelihara.</li>
+            <li>Multithreading: Java mendukung pengembangan aplikasi multithreading, yang memungkinkan aplikasi untuk
+              menjalankan beberapa tugas secara bersamaan.</li>
+            <li>Jaringan: Java memiliki dukungan yang kuat untuk pengembangan aplikasi jaringan dan protokol.</li>
+            <li>Perpustakaan kelas: Java memiliki banyak perpustakaan kelas yang siap pakai, yang memungkinkan
+              pengembang untuk mengambil dan menggunakan kode yang sudah ada tanpa harus menulis ulang dari awal.</li>
+          </ol>
+
+          <p>
+            Java digunakan secara luas untuk mengembangkan berbagai jenis aplikasi seperti aplikasi desktop, aplikasi
+            web, aplikasi mobile, permainan, dan banyak lagi. Java juga digunakan sebagai bahasa pemrograman utama untuk
+            pengembangan Android, dan sangat populer dalam pengembangan perangkat lunak enterprise karena kemampuannya
+            dalam membangun aplikasi yang kompleks dan skala besar.
+          </p>
+        </section>
+
+        <section>
+          <h3>Ruby</h3>
+          <img src="images/rubby.jpg" alt="ruby" class="content-image" />
+          <p>
+            Ruby adalah bahasa pemrograman berorientasi objek yang dirancang oleh Yukihiro Matsumoto pada pertengahan
+            tahun 1990-an. Ruby adalah bahasa yang dinamis dan reflektif, yang berarti bahwa kode Ruby dapat
+            memanipulasi dirinya
+            sendiri pada waktu eksekusi. <br />
+            Ruby memiliki sintaks yang mirip dengan bahasa pemrograman lain seperti Perl dan Python, dan didukung oleh
+            kerangka kerja Ruby on Rails yang populer untuk pengembangan aplikasi web. <br />
+
+            Beberapa fitur Ruby meliputi:
+          </p>
+          <ol>
+            <li>Berorientasi objek: Ruby adalah bahasa pemrograman berorientasi objek, yang berarti bahwa kode Ruby
+              dibuat dalam bentuk objek, yang terdiri dari data dan perilaku.</li>
+            <li>
+              Dinamis dan reflektif: Ruby adalah bahasa dinamis yang memungkinkan pengembang untuk memodifikasi kode
+              secara dinamis pada waktu eksekusi. Ruby juga merupakan bahasa reflektif, yang memungkinkan kode Ruby
+              memanipulasi objek
+              yang mewakilinya.
+            </li>
+            <li>Sintaks yang mudah dipahami: Ruby memiliki sintaks yang mudah dipahami dan mirip dengan bahasa
+              pemrograman lain seperti Perl dan Python. Ini memudahkan pengembang baru untuk belajar dan menggunakan
+              Ruby.</li>
+            <li>Garbage collection: Ruby memiliki pengumpul sampah (garbage collector) bawaan yang secara otomatis
+              membebaskan memori yang tidak lagi digunakan oleh program.</li>
+            <li>
+              Kerangka kerja Ruby on Rails: Ruby on Rails adalah kerangka kerja web open source yang sangat populer
+              untuk pengembangan aplikasi web. Kerangka kerja ini menyediakan banyak fitur untuk mempercepat
+              pengembangan aplikasi web,
+              seperti routing, database ORM, dan integrasi dengan front-end.
+            </li>
+            <li>Komunitas pengguna yang besar: Ruby memiliki komunitas pengguna yang besar dan aktif, yang membuatnya
+              mudah untuk mendapatkan bantuan atau sumber daya ketika mengembangkan aplikasi Ruby.</li>
+          </ol>
+
+          <p>
+            Ruby digunakan secara luas untuk mengembangkan aplikasi web, alat-alat pengujian otomatis, dan bahkan
+            permainan. Ruby juga digunakan sebagai bahasa pemrograman utama dalam beberapa kerangka kerja dan platform
+            seperti Ruby on
+            Rails dan Jekyll.
+          </p>
+        </section>
+
+        <section>
+          <h3>Python</h3>
+          <img src="images/pythone.png" alt="python" class="content-image" />
+          <p>
+            Python adalah bahasa pemrograman tingkat tinggi, interpretatif, dan berorientasi objek yang dirancang oleh
+            Guido van Rossum pada akhir tahun 1980-an dan pertengahan 1990-an. Python populer dalam pengembangan
+            perangkat lunak
+            karena sintaks yang mudah dipahami dan mudah digunakan. <br />
+
+            Beberapa fitur Python meliputi:
+          </p>
+          <ol>
+            <li>Sintaks yang mudah dipahami: Python memiliki sintaks yang mudah dipahami dan dibaca, yang membuatnya
+              mudah dipelajari bagi pengembang baru.</li>
+            <li>Bahasa berorientasi objek: Python adalah bahasa berorientasi objek yang memungkinkan pengembang untuk
+              membangun kode dalam bentuk objek, yang terdiri dari data dan perilaku yang terkait.</li>
+            <li>Interpretatif: Python adalah bahasa interpretatif, yang berarti kode Python dieksekusi langsung oleh
+              interpreter Python tanpa perlu dikompilasi terlebih dahulu.</li>
+            <li>Fleksibel: Python dapat digunakan untuk berbagai jenis pengembangan, termasuk pengembangan web,
+              pengembangan game, pemrosesan data, dan pemrograman GUI.</li>
+            <li>Perpustakaan modul yang luas: Python memiliki perpustakaan modul yang luas, yang mencakup berbagai
+              fungsi dan alat yang siap pakai, seperti modul matematika, modul jaringan, modul database, dan banyak
+              lagi.</li>
+            <li>Portabilitas: Python dapat dijalankan pada berbagai platform dan sistem operasi.</li>
+          </ol>
+
+          <p>
+            Python digunakan secara luas dalam berbagai aplikasi seperti pengembangan web, pemrosesan data, pembuatan
+            game, dan pembuatan aplikasi desktop. Python juga digunakan sebagai bahasa pemrograman utama untuk banyak
+            alat dan
+            kerangka kerja populer, termasuk NumPy, Pandas, Flask, Django, dan banyak lagi.
+          </p>
+        </section>
+      </article>
+
+      <article class="card" id="fullstack">
+        <h2>Cyber Security </h2>
+        <img src="images/cyber.jpg" alt="fullstack" class="content-image" />
+        <p>
+          Seorang profesional di bidang keamanan siber adalah individu yang memiliki tanggung jawab krusial dalam
+          menjaga integritas sistem komputer, jaringan, dan data. Mereka bertugas mengembangkan dan menerapkan kebijakan
+          keamanan, mengawasi aktivitas jaringan, serta mendeteksi potensi ancaman keamanan yang dapat mengancam
+          organisasi. Ketika serangan siber terjadi, mereka merespons dengan cepat, mengidentifikasi kerentanannya, dan
+          mengatasi serangan. Manajemen identitas dan akses juga merupakan bagian penting dari pekerjaan mereka untuk
+          memastikan bahwa hanya individu yang berwenang yang dapat mengakses data dan sistem.<br />
+          Selain itu, mereka melakukan pengujian keamanan, mengelola rencana pemulihan bencana, memberikan pelatihan untuk meningkatkan
+          kesadaran keamanan, serta melakukan penyelidikan insiden.<br />
+          <br />
+          Kesadaran akan tren serangan dan teknologi keamanan baru juga diperlukan untuk menjaga sistem tetap aman. Dengan kolaborasi yang baik dengan tim internal, mereka
+          memastikan semua aspek keamanan terintegrasi sesuai dengan kebijakan organisasi, sehingga memastikan
+          integritas sistem dan data organisasi tetap terlindungi.<br />
+        </p>
+      </article>
+    </div>
+
+    <!-- side content  -->
+    <aside>
+      <article class="profile card">
+        <header>
+          <h2>Tentang Saya</h2>
+          <figure>
+            <img src="images/test.jpg" src="foto bio" />
+          </figure>
+        </header>
+        <section>
+          <table>
+            <tr>
+              <th>Nama</th>
+              <td>: Taufik Abdul Aziz </td>
+            </tr>
+            <tr>
+              <th>Tempat Lahir</th>
+              <td>: Padang </td>
+            </tr>
+            <tr>
+              <th>Tanggal Lahir</th>
+              <td>: 20 Januari 2001 </td>
+            </tr>
+            <tr>
+              <th>Domisili</th>
+              <td>: Padang </td>
+            </tr>
+            <tr>
+              <th>Status</th>
+              <td>: Mahasiswa</td>
+            </tr>
+            <tr>
+              <th>Kampus</th>
+              <td>: Universitas Muhammadiyah Malang </td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td>: tfkdblzz@gmail.com</td>
+            </tr>
+            <tr>
+              <th>Linkedin</th>
+              <td>: <a href="https://www.linkedin.com/in/taufik-abdul-aziz-7537b6237/" target="_blank">Taufik Abdul Aziz</a></td>
+            </tr>
+            <tr>
+              <th>Instagram</th>
+              <td>: <a href="https://www.instagram.com/abdulaziiz.e/" target="_blank">abdulaziiz.e</a></td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </aside>
+  </main>
+
+  <!-- footer  -->
+  <footer>
+    <p>Menjadi Google Cloud Engineer &copy; 2023 Dicoding Indonesia</p>
+  </footer>
+
+  <!-- script  -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
